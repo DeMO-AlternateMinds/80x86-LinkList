@@ -46,7 +46,7 @@ main PROC
         ; current + 4
         
 
-        
+        ; Set Current Node to Root
         mov ebx, root
         mov eax, OFFSET [current]
         mov [eax], ebx
